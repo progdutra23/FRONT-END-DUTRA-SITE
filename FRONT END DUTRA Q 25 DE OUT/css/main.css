@@ -47,6 +47,7 @@ body{
     margin-top: 100px;    /* margem superior  */
     justify-content: center;   /* centralizar texto   */
     align-items: center;
+    margin: center;
 }
 
 .Icone, .email{
@@ -58,6 +59,7 @@ body{
     margin: 5px;
     overflow: hidden;
     justify-content: center;
+    margin-top: center;
 }
 
 .Icone i,  .email i{
@@ -72,7 +74,14 @@ body{
     color: orange;
     cursor: pointer;
     justify-content: center;
+    margin-top: center;
 }
+
+.icone:hover{
+    transition: 0.2s;
+    background-color: rgb(255, 94, 0);
+}
+
 
 .Sobre-mim{
     position: absolute; 
